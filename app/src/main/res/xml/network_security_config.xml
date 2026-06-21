@@ -6,12 +6,4 @@
             <certificates src="system" />
         </trust-anchors>
     </base-config>
-    <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="false">localhost</domain>
-        <domain includeSubdomains="false">127.0.0.1</domain>
-        <domain includeSubdomains="false">1aor8ud60aqvbiom.myfritz.net</domain>
-        <trust-anchors>
-            <certificates src="@raw/winkelkoerner_rootca" />
-        </trust-anchors>
-    </domain-config>
 </network-security-config>
