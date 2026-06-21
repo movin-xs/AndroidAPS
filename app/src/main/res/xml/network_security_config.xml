@@ -6,4 +6,10 @@
             <certificates src="system" />
         </trust-anchors>
     </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">myfritz.net</domain>
+        <trust-anchors>
+            <certificates src="@raw/winkelkoerner_rootca"/>
+        </trust-anchors>
+    </domain-config>
 </network-security-config>
